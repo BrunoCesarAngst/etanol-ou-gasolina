@@ -38,10 +38,10 @@ public class MainActivity extends AppCompatActivity {
 
                     double res = calc(etanol, gasolina);
 
-                    showAlertDialog(res <= 0.7 ? "Etanol" : "Gasolina");
+                    showAlertDialog(res <= 0.7 ? getString(R.string.etanol) : getString(R.string.gasolina));
                 } catch (Exception e) {
-                    Snackbar snack = Snackbar.make(v, "Verifique os campos e tente novamente!", Snackbar.LENGTH_LONG);
-                    snack.setAction("dismiss", new View.OnClickListener() {
+                    Snackbar snack = Snackbar.make(v, R.string.mensagem_de_erro, Snackbar.LENGTH_LONG);
+                    snack.setAction(R.string.snackbar_msg_dismiss, new View.OnClickListener() {
                         @Override
                         public void onClick(View v) {
                             snack.dismiss();
@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
 
         AlertDialog.Builder alertDialog = new AlertDialog.Builder(this);
 
-        alertDialog.setTitle("Etanol ou Gasolina?").setMessage("Compensa usar " + msg)
+        alertDialog.setTitle(getString(R.string.etanol_ou_gasolina)).setMessage(getString(R.string.compensa_usar) + msg)
                 .setPositiveButton("Ok", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {

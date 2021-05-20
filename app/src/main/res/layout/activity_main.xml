@@ -23,7 +23,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@null"
-            android:hint="Preço do etanol"
+            android:hint="@string/preco_do_etanol"
             android:textColorHint="@color/white" />
 
 
@@ -44,7 +44,7 @@
             android:id="@+id/edtGasolina"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:hint="Preço da gasolina"
+            android:hint="@string/preco_da_gasolina"
             tools:layout_editor_absoluteY="5dp" />
 
 
@@ -57,7 +57,7 @@
         android:layout_marginStart="64dp"
         android:layout_marginEnd="64dp"
         android:layout_marginBottom="200dp"
-        android:text="Calcular"
+        android:text="@string/calcular"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
