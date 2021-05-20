@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Etanol ou Gasolina</string>
+    <string name="etanol">Ethanol</string>
+    <string name="gasolina">Gasoline</string>
+    <string name="mensagem_de_erro">Check the fields and try again!</string>
+    <string name="snackbar_msg_dismiss">Dismiss</string>
+    <string name="compensa_usar">It pays to use</string>
+    <string name="etanol_ou_gasolina">Ethanol or Gasoline?</string>
+    <string name="preco_do_etanol">Ethanol price</string>
+    <string name="preco_da_gasolina">Gas price</string>
+    <string name="calcular">Calculate</string>
+</resources>

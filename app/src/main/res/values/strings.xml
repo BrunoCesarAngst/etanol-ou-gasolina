@@ -3,8 +3,8 @@
     <string name="etanol">Etanol</string>
     <string name="gasolina">Gasolina</string>
     <string name="mensagem_de_erro">Verifique os campos e tente novamente!</string>
-    <string name="snackbar_msg_dismiss">dismiss</string>
-    <string name="compensa_usar">\"Compensa usar \"</string>
+    <string name="snackbar_msg_dismiss">Fechar</string>
+    <string name="compensa_usar">"Compensa usar "</string>
     <string name="etanol_ou_gasolina">Etanol ou Gasolina?</string>
     <string name="preco_do_etanol">Preço do etanol</string>
     <string name="preco_da_gasolina">Preço da gasolina</string>
